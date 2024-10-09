@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<script>
+function checkOddEven(number) {
+    if (number % 2 === 0) {
+        alert(number + " is even");
+    } else {
+        alert(number + " is odd");
+    }
+}
+
+checkOddEven(12);
+checkOddEven(15);
+</script>
+</html>
